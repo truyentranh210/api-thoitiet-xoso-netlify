@@ -1,0 +1,14 @@
+[build]
+  command = "npm install"
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/xoso"
+  to = "/.netlify/functions/api/xoso"
+  status = 200
+
+[[redirects]]
+  from = "/thoitiet"
+  to = "/.netlify/functions/api/thoitiet"
+  status = 200
