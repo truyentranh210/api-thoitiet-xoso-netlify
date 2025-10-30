@@ -1,7 +1,7 @@
-import express from "express";
-import serverless from "serverless-http";
-import fetch from "node-fetch";
-import * as cheerio from "cheerio";
+const express = require("express");
+const serverless = require("serverless-http");
+const cheerio = require("cheerio");
+const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
 
 const app = express();
 const router = express.Router();
