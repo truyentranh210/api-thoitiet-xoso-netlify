@@ -1,6 +1,6 @@
 {
-  "name": "auto-xoso-thoitiet-api",
-  "version": "2.0.0",
+  "name": "xoso-thoitiet-api",
+  "version": "2.2.0",
   "type": "module",
   "dependencies": {
     "cheerio": "^1.0.0",
