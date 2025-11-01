@@ -12,3 +12,9 @@
   from = "/thoitiet"
   to = "/.netlify/functions/api/thoitiet"
   status = 200
+
+# 🏠 Thêm route /home
+[[redirects]]
+  from = "/home"
+  to = "/.netlify/functions/api/home"
+  status = 200
